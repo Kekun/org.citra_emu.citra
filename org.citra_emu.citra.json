@@ -10,8 +10,8 @@
         "env": {
             "CI": "1",
             "GITHUB_ACTIONS": "1",
-            "GITHUB_REPOSITORY": "citra-emu/citra-nightly",
-            "GIT_TAG_NAME": "nightly-1694"
+            "GITHUB_REPOSITORY": "citra-emu/citra-canary",
+            "GIT_TAG_NAME": "canary-1952"
         }
     },
     "finish-args": [
@@ -52,9 +52,9 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "https://github.com/citra-emu/citra-nightly.git",
-                    "tag": "nightly-1694",
-                    "commit": "e6c479f497612a0ae1c00ad9c85d5af715495d46",
+                    "url": "https://github.com/citra-emu/citra-canary.git",
+                    "tag": "canary-1952",
+                    "commit": "1d1f601c4a6d9c65fc9959b760c08167dad20ebe",
                     "disable-shallow-clone": true
                 },
                 {
